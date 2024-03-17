@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:"Nunito", sans-serif; 
+}
+body{
+    width: 100%;
+    height:100vh;
+    border:2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:rgba(12, 12, 12, 0.933) ;
+   
+}
+
+.calculator{
+    border: 2px solid rgb(17, 17, 17);
+    padding:10px;
+    border-radius:16px;
+    background:transparent;
+    box-shadow:0px 3px 15px rgba(61, 62, 63, 0.6)
+}
+#result{
+    display: flex;
+    flex-direction: column;
+    
+
+}
+input{
+    width:320px;
+    border:none;
+    padding:25px;
+    margin:10px;
+    text-align:right;
+    font-size:30px;
+    border-radius:16px;
+    background:transparent;
+    box-shadow:0px 3px 15px rgba(50, 51, 52, 0.1)
+}
+
+#history{
+    color:rgb(119, 119, 110);
+}
+#input-box{
+    color:rgb(231, 236, 236)
+}
+input::placeholder{
+    color:rgb(208, 202, 202);
+}
+
+button{
+   width:60px;
+   height:60px;
+   margin:10px;
+   border:1px rgb(27, 26, 26);
+   border-radius:50px;
+   background:transparent;
+   box-shadow:0px 3px 15px rgba(85, 85, 83, 0.5);
+   font-size:25px;
+   color:rgb(253, 253, 253);
+   font-weight: 600;
+   cursor:pointer;
+}
+
+#equalsTo{
+    color:rgb(5, 5, 5);
+    background:orange;
+    font-weight:800;
+    
+}
+
+.operator{
+    color:rgb(252, 177, 39)
+}
